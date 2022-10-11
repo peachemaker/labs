@@ -2,9 +2,8 @@ import random as rd
 
 amount = rd.randint(4, 30)
 print(amount)
-pc = 0
 while amount > 1:
-    user = int(input("Your turn (print 1 or 2 or 3)"))
+    user = int(input("Your turn (print 1 or 2 or 3) "))
     amount = amount - user
     if amount == 1:
         print("Congratulations! You won this game!")
